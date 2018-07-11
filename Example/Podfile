@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TCategoryKit_Example' do
+  pod 'TCategoryKit', :path => '../'
+
+  target 'TCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
